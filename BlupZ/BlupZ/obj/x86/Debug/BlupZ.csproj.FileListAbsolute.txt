@@ -1,0 +1,9 @@
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.csprojResolveAssemblyReference.cache
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\Button.xnb
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\OnButton.xnb
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\buttonFont.xnb
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\BlupZ.exe
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\BlupZ.pdb
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.exe
+C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.pdb
