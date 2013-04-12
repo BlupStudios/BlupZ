@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\Button.xnb</Output>
-      <Time>2013-04-12T16:02:07.7075064+03:00</Time>
+      <Output>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\Button.xnb</Output>
+      <Time>2013-04-12T15:42:45.8149556+03:00</Time>
     </Item>
     <Item>
       <Source>OnButton.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\OnButton.xnb</Output>
-      <Time>2013-04-12T16:02:07.7095065+03:00</Time>
+      <Output>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\OnButton.xnb</Output>
+      <Time>2013-04-12T15:42:45.8949602+03:00</Time>
     </Item>
     <Item>
       <Source>buttonFont.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\buttonFont.xnb</Output>
-      <Time>2013-04-12T16:02:07.7105066+03:00</Time>
+      <Output>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\buttonFont.xnb</Output>
+      <Time>2013-04-12T15:42:45.8949602+03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,10 +34,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -66,7 +66,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-07-09T15:19:02.1276619+03:00</Value>
+        <Value>2012-08-09T04:31:51.044102+03:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

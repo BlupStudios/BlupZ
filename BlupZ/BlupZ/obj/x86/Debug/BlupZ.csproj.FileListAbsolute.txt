@@ -19,3 +19,14 @@ C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.pdb
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.Form1.resources
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\Button.xnb
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\OnButton.xnb
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\Content\buttonFont.xnb
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\BlupZ.exe
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\bin\x86\Debug\BlupZ.pdb
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.csprojResolveAssemblyReference.cache
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.Form1.resources
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.csproj.GenerateResource.Cache
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.exe
+C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.pdb
