@@ -51,7 +51,7 @@ namespace BlupZ
 
         public void Load(ContentManager content, GraphicsDeviceManager graphics)
         {
-            this.textrue = content.Load<Texture2D>("Button");
+            this.textrue = content.Load<Texture2D>(@"Textures/Button");
             font = content.Load<SpriteFont>(fontName);
             rec = new Rectangle((int)pos.X, (int)pos.Y, width, height);
         }
@@ -82,9 +82,9 @@ namespace BlupZ
         public void onHover(ContentManager content, SpriteBatch sprite)
         {
             if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y))
-                this.textrue = content.Load<Texture2D>("OnButton");
+                this.textrue = content.Load<Texture2D>(@"Textures/Button");
             else
-                this.textrue = content.Load<Texture2D>("Button");
+                this.textrue = content.Load<Texture2D>(@"Textures/Button");
         }
 
         public void onPress(ContentManager content, SpriteBatch sprite)

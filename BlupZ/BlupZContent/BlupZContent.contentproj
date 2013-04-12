@@ -42,12 +42,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Button.png">
+    <Compile Include="Textures\Button.png">
       <Name>Button</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="OnButton.png">
+    <Compile Include="Textures\OnButton.png">
       <Name>OnButton</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
