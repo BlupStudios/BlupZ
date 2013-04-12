@@ -63,12 +63,36 @@ namespace BlupZ
             sprite.DrawString(font, text, new Vector2(pos.X + (width / 2 - font.MeasureString(text).X / 2), pos.Y + (height / 2 - font.MeasureString(text).Y / 2)), Color.White);
         }
 
+        public void update(ContentManager content, SpriteBatch sprite)
+        {
+            onHover(content, sprite);
+            onPress(content, sprite);
+        }
+
+        public event EventHandler ButtonPress;
+
+        public void onButtonPress()
+        {
+            if (ButtonPress != null)
+            {
+                ButtonPress(this, EventArgs.Empty);
+            }
+        }
+
         public void onHover(ContentManager content, SpriteBatch sprite)
         {
             if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y))
                 this.textrue = content.Load<Texture2D>("OnButton");
             else
                 this.textrue = content.Load<Texture2D>("Button");
+        }
+
+        public void onPress(ContentManager content, SpriteBatch sprite)
+        {
+            if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y) && Mouse.GetState().LeftButton == ButtonState.Pressed)
+            {
+                onButtonPress();
+            }
         }
 
 

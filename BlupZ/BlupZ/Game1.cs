@@ -19,12 +19,19 @@ namespace BlupZ
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         menu menu;
+        private static Game1 instance;
 
         public Game1()
         {
+            instance = this;
             IsMouseVisible = true;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+        }
+
+        public static Game1 getInstance()
+        {
+            return instance;
         }
 
         protected override void Initialize()
