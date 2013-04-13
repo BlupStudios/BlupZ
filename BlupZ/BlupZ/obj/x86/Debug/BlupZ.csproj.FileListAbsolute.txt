@@ -7,8 +7,6 @@ C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\De
 C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\bin\x86\Debug\BlupZ.pdb
 C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.exe
 C:\Users\Noam\Documents\Visual Studio 2010\Projects\BlupZ\BlupZ\BlupZ\obj\x86\Debug\BlupZ.pdb
-C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\Button.xnb
-C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\OnButton.xnb
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\buttonFont.xnb
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\BlupZ.exe
 C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\BlupZ.pdb
@@ -30,3 +28,5 @@ C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.Form1.resources
 C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.csproj.GenerateResource.Cache
 C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.exe
 C:\Users\Noam\Desktop\BlupZ.git\BlupZ\BlupZ\obj\x86\Debug\BlupZ.pdb
+C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\Textures\Button.xnb
+C:\Users\Ehud\Desktop\GitHub\BlupZ\BlupZ\BlupZ\bin\x86\Debug\Content\Textures\OnButton.xnb

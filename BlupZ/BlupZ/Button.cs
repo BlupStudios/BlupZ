@@ -82,7 +82,7 @@ namespace BlupZ
         public void onHover(ContentManager content, SpriteBatch sprite)
         {
             if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y))
-                this.textrue = content.Load<Texture2D>(@"Textures/Button");
+                this.textrue = content.Load<Texture2D>(@"Textures/OnButton");
             else
                 this.textrue = content.Load<Texture2D>(@"Textures/Button");
         }

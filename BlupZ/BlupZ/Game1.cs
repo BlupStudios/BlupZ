@@ -20,6 +20,14 @@ namespace BlupZ
         SpriteBatch spriteBatch;
         menu menu;
         private static Game1 instance;
+        gameState State;
+
+        public enum gameState
+        {
+            Menu,
+            Options,
+            GamePlay
+        }
 
         public Game1()
         {
@@ -36,7 +44,19 @@ namespace BlupZ
 
         protected override void Initialize()
         {
-            menu = new menu();
+            State = gameState.Menu;
+            if (State == gameState.Menu)
+            {
+                menu = new menu();
+            }
+            else if (State == gameState.Options)
+            {
+                //do options things here
+            }
+            else if (State == gameState.GamePlay)
+            {
+                //Call the gameplay fuctions
+            }
             base.Initialize();
         }
 
