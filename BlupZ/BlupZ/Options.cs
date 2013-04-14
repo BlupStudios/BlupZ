@@ -12,7 +12,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace BlupZ
 {
-    class Menu
+    class Options
     {
         private Hashtable buttons = new Hashtable();
 
@@ -30,9 +30,9 @@ namespace BlupZ
             {
                 (b.Value as Button).Load();
             }
-            (buttons["play"] as Button).ButtonPress += PlayPress;
-            (buttons["options"] as Button).ButtonPress += OptionsPress;
-            (buttons["exit"] as Button).ButtonPress += ExitPress;
+            //(buttons["play"] as Button).ButtonPress += PlayPress;
+            //(buttons["options"] as Button).ButtonPress += OptionsPress;
+            //(buttons["exit"] as Button).ButtonPress += ExitPress;
         }
 
         public void update()
@@ -46,27 +46,6 @@ namespace BlupZ
             SpriteBatch sprite = Game1.getInstance().spriteBatch;
             foreach (DictionaryEntry b in buttons)
                 (b.Value as Button).draw();
-        }
-
-        public void PlayPress(object sender, EventArgs eventArgs)
-        {
-            Console.WriteLine("Play");
-            (buttons["play"] as Button).ButtonPress -= PlayPress;
-            (buttons["options"] as Button).ButtonPress -= OptionsPress;
-            Game1.getInstance().State = Game1.gameState.GamePlay;
-            Game1.getInstance().DoUnload();
-        }
-        public void OptionsPress(object sender, EventArgs eventArgs)
-        {
-            Console.WriteLine("Options");
-            (buttons["play"] as Button).ButtonPress -= PlayPress;
-            (buttons["options"] as Button).ButtonPress -= OptionsPress;
-            Game1.getInstance().State = Game1.gameState.Options;
-
-        }
-        public void ExitPress(object sender, EventArgs eventArgs)
-        {
-            Game1.getInstance().Exit();
         }
     }
 }
