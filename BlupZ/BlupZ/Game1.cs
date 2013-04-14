@@ -16,11 +16,11 @@ namespace BlupZ
     /// </summary>
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        menu menu;
+        public GraphicsDeviceManager graphics;
+        public SpriteBatch spriteBatch;
+        Menu menu;
         private static Game1 instance;
-        gameState State;
+        public gameState State;
 
         public enum gameState
         {
@@ -45,29 +45,35 @@ namespace BlupZ
         protected override void Initialize()
         {
             State = gameState.Menu;
-            if (State == gameState.Menu)
-            {
-                menu = new menu();
-            }
-            else if (State == gameState.Options)
-            {
-                //do options things here
-            }
-            else if (State == gameState.GamePlay)
-            {
-                //Call the gameplay fuctions
-            }
+            menu = new Menu();
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            menu.Load(Content, graphics);
+            if (State == gameState.Menu)
+            {
+                menu.Load();
+            }
+            else if (State == gameState.Options)
+            {
+                //Options stuff
+            }
+            else if (State == gameState.GamePlay)
+            {
+                //Call GamePlay
+            }
+        }
+
+        public void DoUnload()
+        {
+            UnloadContent();
         }
 
         protected override void UnloadContent()
         {
+            Content.Unload();
         }
 
 
@@ -76,8 +82,18 @@ namespace BlupZ
             KeyboardState key = Keyboard.GetState();
             if (key.IsKeyDown(Keys.Escape))
                 this.Exit();
-            menu.update(Content, spriteBatch);
-
+            if (State == gameState.Menu)
+            {
+                menu.update();
+            }
+            else if (State == gameState.Options)
+            {
+                //Options stuff
+            }
+            else if (State == gameState.GamePlay)
+            {
+                //Call GamePlay
+            }
             base.Update(gameTime);
         }
 
@@ -85,7 +101,18 @@ namespace BlupZ
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            menu.draw(spriteBatch);
+            if (State == gameState.Menu)
+            {
+                menu.draw();
+            }
+            else if (State == gameState.Options)
+            {
+                //Options stuff
+            }
+            else if (State == gameState.GamePlay)
+            {
+                //Call GamePlay
+            }
             spriteBatch.End();
 
             base.Draw(gameTime);
