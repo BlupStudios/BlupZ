@@ -29,6 +29,11 @@ namespace BlupZ
             GamePlay
         }
 
+        public void setState(gameState State)
+        {
+            this.State = State;
+        }
+
         public Game1()
         {
             instance = this;
@@ -71,6 +76,11 @@ namespace BlupZ
             UnloadContent();
         }
 
+        public void DoLoad()
+        {
+            LoadContent();
+        }
+
         protected override void UnloadContent()
         {
             Content.Unload();
@@ -80,19 +90,27 @@ namespace BlupZ
         protected override void Update(GameTime gameTime)
         {
             KeyboardState key = Keyboard.GetState();
-            if (key.IsKeyDown(Keys.Escape))
-                this.Exit();
+            //if (key.IsKeyDown(Keys.Escape))
+            //    this.Exit();
             if (State == gameState.Menu)
             {
                 menu.update();
             }
             else if (State == gameState.Options)
             {
-                //Options stuff
+                if (key.IsKeyDown(Keys.Escape))
+                {
+                    State = gameState.Menu;
+                    LoadContent();
+                }
             }
             else if (State == gameState.GamePlay)
             {
-                //Call GamePlay
+                if (key.IsKeyDown(Keys.Escape))
+                {
+                    State = gameState.Menu;
+                    LoadContent();
+                }
             }
             base.Update(gameTime);
         }

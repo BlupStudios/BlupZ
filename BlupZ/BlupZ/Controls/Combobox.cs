@@ -12,6 +12,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace BlupZ
 {
+    // Not working on it for now
     class Combobox
     {
         private Vector2 pos { get; set; }
@@ -51,7 +52,7 @@ namespace BlupZ
         {
             GraphicsDeviceManager graphics = Game1.getInstance().graphics;
             ContentManager content = Game1.getInstance().Content;
-            this.textrue = content.Load<Texture2D>(@"Textures/Button");
+            this.textrue = content.Load<Texture2D>(@"Textures/Combobox/ComboboxClosed");
             font = content.Load<SpriteFont>(fontName);
             rec = new Rectangle((int)pos.X, (int)pos.Y, width, height);
         }
@@ -66,34 +67,24 @@ namespace BlupZ
 
         public void update()
         {
-            onHover();
             onPress();
         }
 
-        public event EventHandler ButtonPress;
+        public event EventHandler ComboboxPress;
 
-        public void onButtonPress()
+        public void onComboboxPress()
         {
-            if (ButtonPress != null)
+            if (ComboboxPress != null)
             {
-                ButtonPress(this, EventArgs.Empty);
+                ComboboxPress(this, EventArgs.Empty);
             }
-        }
-
-        public void onHover()
-        {
-            ContentManager content = Game1.getInstance().Content;
-            if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y))
-                this.textrue = content.Load<Texture2D>(@"Textures/OnButton");
-            else
-                this.textrue = content.Load<Texture2D>(@"Textures/Button");
         }
 
         public void onPress()
         {
             if (rec.Contains(Mouse.GetState().X, Mouse.GetState().Y) && Mouse.GetState().LeftButton == ButtonState.Pressed)
             {
-                onButtonPress();
+                onComboboxPress();
             }
         }
 
